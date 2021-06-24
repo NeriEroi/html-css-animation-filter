@@ -153,9 +153,33 @@
 /* / Esercizio 10 */
 
 
+/* Esercizio 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: spinALITTLEBit 2s;
+}
+
+ @keyframes spinALITTLEBit {
+    0% {
+        transform: rotate(0);
+    } 
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+ }
+
+/* Esercizio 11 */
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
