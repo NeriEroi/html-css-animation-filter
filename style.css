@@ -75,9 +75,29 @@
 /* / Esercizio 5 */
 
 
-.ex-6-img, .ex-7-img, .ex-8-img {
+/* Esercizio 6 */
+
+.ex-6-img {
     width: 500px;
 }
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* / Esercizio 6 */
+
+.ex-7-img {
+    width: 500px;
+    filter: ;
+}
+
+.ex-8-img {
+    width: 500px;
+    filter: ;
+}
+
+
 
 .ex-9-img {
     margin: 50px 100px;
