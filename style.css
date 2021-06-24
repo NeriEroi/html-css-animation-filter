@@ -137,10 +137,22 @@
 /* Esercizio 9 */
 
 
+/* Esercizio 10 */
 
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 2s linear infinite;
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    } 
+ }
+
+/* / Esercizio 10 */
+
+
 .ex-11-icon {
     font-size: 60px;
 }
